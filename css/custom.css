@@ -409,12 +409,12 @@ html {
 .stellarnav{
     padding: 14px 0;
 }
-.stellarnav > ul > li:nth-child(7){
+.stellarnav > ul > li:nth-child(8){
     position: absolute;
     right: -5px;
     top: 20px;
 }
-.stellarnav > ul > li:nth-child(7) a{
+.stellarnav > ul > li:nth-child(8) a{
     box-sizing: border-box;
     background-color: #fff;
     color: #222;
@@ -426,16 +426,16 @@ html {
     height: auto;
     margin: 0;
 }
-.stellarnav > ul > li:nth-child(7):hover a:after{
+.stellarnav > ul > li:nth-child(8):hover a:after{
     content: none
 }
-.stellarnav > ul > li:nth-child(7):hover a{
+.stellarnav > ul > li:nth-child(8):hover a{
     background-color: #000;
     color: #fff;
     transition: all .3s ease;
 }
 
-.stellarnav > ul > li:nth-child(4){
+.stellarnav > ul > li:nth-child(5){
     margin-left: 220px;
 }
 
@@ -459,12 +459,12 @@ html {
 .stellarnav{
     padding: 14px 0;
 }
-.stellarnav > ul > li:nth-child(7){
+.stellarnav > ul > li:nth-child(8){
     position: absolute;
     right: -5px;
     top: 20px;
 }
-.stellarnav > ul > li:nth-child(7) a{
+.stellarnav > ul > li:nth-child(8) a{
     box-sizing: border-box;
     background-color: #fff;
     color: #222;
@@ -476,16 +476,16 @@ html {
     height: auto;
     margin: 0;
 }
-.stellarnav > ul > li:nth-child(7):hover a:after{
+.stellarnav > ul > li:nth-child(8):hover a:after{
     content: none
 }
-.stellarnav > ul > li:nth-child(7):hover a{
+.stellarnav > ul > li:nth-child(8):hover a{
     background-color: #000;
     color: #fff;
     transition: all .3s ease;
 }
 
-.stellarnav > ul > li:nth-child(4){
+.stellarnav > ul > li:nth-child(5){
     margin-left: 220px;
 }
 
