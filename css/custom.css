@@ -281,7 +281,7 @@ html {
     min-width: 100%;
     object-position: center;
     object-fit: cover;
-    height: 100vh;
+    height: calc(100vh - 40px);
 }
 
 .swiper-wrapper:after{
@@ -485,9 +485,7 @@ html {
     transition: all .3s ease;
 }
 
-.stellarnav > ul > li:nth-child(5){
-    margin-left: 220px;
-}
+
 
 
 
@@ -708,6 +706,9 @@ ul.show-list:before , ul.pic-list:before{content:none;}
 .stellarnav > ul > li{
     margin: 0;
 }
+.stellarnav > ul > li:nth-child(5){
+  margin-left: 0;
+}
 .stellarnav > ul > li > a {
     margin: 0 10px;
 }
@@ -737,7 +738,11 @@ ul.show-list , .other_subalbum ,ul.pic-list{    display: grid;    grid-template-
 
 /*側邊選單/＝＝＝＝＝*/
 .nav-header {z-index: 0;    }
-.navigation {display: grid;grid-template-columns: 120px 1fr 60px;align-items: center;padding: 5px 0;    }
+.navigation {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  align-items: center;padding: 5px 0;    
+}
 .me_tp_features {        text-align: right;        margin: 0;}
 .stellarnav.mobile {        position: static;}
 .stellarnav li li > a , .stellarnav li li.has-sub > a{    padding: 10px;border-left:none;}
