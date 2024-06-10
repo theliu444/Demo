@@ -802,6 +802,26 @@ ul.show-list , .other_subalbum ,ul.pic-list{    display: grid;    grid-template-
 /*Footer/＝＝＝＝＝*/
 #to_top { bottom:60px;}
 #bottom_menu {display: block; }
+#bottom_menu li:nth-child(1){
+  width: 100%;
+}
+#bottom_menu li:nth-child(2){
+  display: none;
+}
+#bottom_menu li a {
+  padding: 18px 10px;
+  background-color: #000;
+  color: #fff;
+}
+#bottom_menu li a i {
+  display: block;
+  font-size: 15px;
+}
+#bottom_menu li a em {
+  font-size: 14px;
+  letter-spacing: 0.08rem;
+}
+
 .footer.with_shopping_mode { padding:30px 0 60px; }
 .footer_info {    justify-content: center;}
 .footer_logo {    text-align: center;}
