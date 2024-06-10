@@ -411,12 +411,12 @@ html {
 }
 .stellarnav > ul > li:nth-child(8){
     position: absolute;
-    right: -5px;
-    top: 20px;
+    right: -1%;
+    top: 14px;
 }
 .stellarnav > ul > li:nth-child(8) a{
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #e5ff78;
     color: #222;
     font-weight: 600;
     letter-spacing: 0.2rem;
@@ -425,13 +425,15 @@ html {
     line-height: 140%;
     height: auto;
     margin: 0;
+    min-width: 100%;
+    font-size: 13px;
 }
 .stellarnav > ul > li:nth-child(8):hover a:after{
     content: none
 }
 .stellarnav > ul > li:nth-child(8):hover a{
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    /* color: #fff; */
     transition: all .3s ease;
 }
 
@@ -453,36 +455,6 @@ html {
 }
 .stellarnav ul{
     text-align: center;
-}
-
-/* 我要預約-置右上*/
-.stellarnav{
-    padding: 14px 0;
-}
-.stellarnav > ul > li:nth-child(8){
-    position: absolute;
-    right: -5px;
-    top: 20px;
-}
-.stellarnav > ul > li:nth-child(8) a{
-    box-sizing: border-box;
-    background-color: #fff;
-    color: #222;
-    font-weight: 600;
-    letter-spacing: 0.2rem;
-    padding: 8px 16px;
-    /* border-radius: 5px; */
-    line-height: 140%;
-    height: auto;
-    margin: 0;
-}
-.stellarnav > ul > li:nth-child(8):hover a:after{
-    content: none
-}
-.stellarnav > ul > li:nth-child(8):hover a{
-    background-color: #000;
-    color: #fff;
-    transition: all .3s ease;
 }
 
 
@@ -684,7 +656,9 @@ ul.show-list:before , ul.pic-list:before{content:none;}
 .pageIndex .header_area .nav-brand{
     max-width: 160px;
 }
-.stellarnav > ul > li:after{content:none;}
+/* .stellarnav > ul > li:after{
+  content:none;
+} */
 
 .stellarnav .menu-toggle span.bars span {
     background: #fff;
@@ -748,6 +722,9 @@ ul.show-list , .other_subalbum ,ul.pic-list{    display: grid;    grid-template-
 .stellarnav li li > a , .stellarnav li li.has-sub > a{    padding: 10px;border-left:none;}
 .stellarnav li li:hover > a , .stellarnav li li.has-sub:hover > a{padding: 10px;border-color:transparent;}
 
+.stellarnav > ul > li:after{
+  content:none;
+}
 /* 修改0607 */
 .main_header_area .container {
     max-width: 100%;
@@ -769,12 +746,15 @@ ul.show-list , .other_subalbum ,ul.pic-list{    display: grid;    grid-template-
 .stellarnav.mobile > ul > li{
     background-color: transparent;
     top: 0;
+    right: 0;
     position: relative;
     margin: 14px 0;
 }
 .stellarnav > ul > li > a {
-    position: relative;
-    color: #111;
+  font-size: 14px !important;
+  background-color: transparent !important;
+  position: relative;
+  color: #111;
 }
 
 .stellarnav.mobile.right > ul, .stellarnav.mobile.left > ul {
@@ -802,11 +782,15 @@ ul.show-list , .other_subalbum ,ul.pic-list{    display: grid;    grid-template-
 /*Footer/＝＝＝＝＝*/
 #to_top { bottom:60px;}
 #bottom_menu {display: block; }
+
 #bottom_menu li:nth-child(1){
-  width: 100%;
+  width: 100% !important;
+}
+.fa-house::before{
+  display: none !important;
 }
 #bottom_menu li:nth-child(2){
-  display: none;
+  display: none !important;
 }
 #bottom_menu li a {
   padding: 18px 10px;
